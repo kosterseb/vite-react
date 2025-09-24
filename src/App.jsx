@@ -1,4 +1,5 @@
 import React from 'react'
+import Dice from './components/Dice'
 
 function App() {
 
@@ -9,10 +10,7 @@ function App() {
         <p className="text-lg text-gray-600">This is a simple starter template.</p>
       </div>
 
-      
-      <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-        Click Me
-      </button>
+      <Dice />
     </>
   )
 }
