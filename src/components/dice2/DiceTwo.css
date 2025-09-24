@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	min-block-size: 100svb;
+	display: grid;
+	place-items: center;
+	font-family: system-ui;
+}
+
+div {
+	display: inline-block;
+	position: relative;
+	aspect-ratio: 1/1;
+}
+
+div > button {
+	position: absolute;
+	inset-inline-start: 50%;
+	inset-block-end: 0%;
+	translate: -50% 0%;
+    bottom: 150px;
+}
+
+div > canvas {
+	display: block;
+	width: 400px;
+	height: 400px;
+    margin-top: 50px;
+}

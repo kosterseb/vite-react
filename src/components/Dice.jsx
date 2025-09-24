@@ -3,9 +3,11 @@ export default function Dice() {
     function diceRoll(event) {
         event.preventDefault();
         const roll = Math.floor(Math.random() * 6) + 1;
+        console.log(`You rolled a ${roll}`);
         alert(`You rolled a ${roll}`);
+
     }
- 
+    
     return (
         <div className="p-4 bg-white rounded shadow-md max-w-md mx-auto mt-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">Dice Roll !</h2>

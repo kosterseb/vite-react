@@ -1,0 +1,18 @@
+html,body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial,sans-serif
+}
+canvas{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	cursor: pointer;
+	transition: transform 0.3s ease
+}
+canvas:hover {  				     
+	transform:scale(1.05); 
+}
